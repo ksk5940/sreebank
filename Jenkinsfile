@@ -1,5 +1,9 @@
 pipeline{
+
 agent any
+
+stages{
+
 steps{
 
 step{
@@ -12,4 +16,5 @@ echo "testing"
 
 }
 
+}
 }
