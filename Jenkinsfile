@@ -13,7 +13,7 @@ echo "step1:building war"
 steps{
 echo "step2"
 }
-
+}
 stage("testing"){
 
 steps{
