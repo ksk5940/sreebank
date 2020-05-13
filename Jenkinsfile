@@ -20,7 +20,7 @@ steps{
 echo "testing step1"
 }
 steps{
-echo "testing step2
+echo "testing step2"
 }
 }
 
