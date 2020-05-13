@@ -4,14 +4,24 @@ agent any
 
 stages{
 
-steps{
+stage("building"){
 
-step{
-echo "building war"
+steps{
+echo "step1:building war"
 }
 
-step{
-echo "testing"
+steps{
+echo "step2"
+}
+
+stage("testing"){
+
+steps{
+echo "testing step1"
+}
+steps{
+echo "testing step2
+}
 }
 
 }
